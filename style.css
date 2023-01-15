@@ -108,7 +108,7 @@ p {
 
 .header {
   height: 90vh;
-  background-image: url(/img/fondo.png),
+  background-image: url(fondo.png),
     linear-gradient(to left, var(--blue), #251ba4);
   display: flex;
   align-items: center;
@@ -450,7 +450,7 @@ p {
 .skills_section {
   height: 90vh;
   padding: 4rem 2rem 0 2rem;
-  background-image: url(/img/portfolio_banner.jpg);
+  background-image: url(portfolio_banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
