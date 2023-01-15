@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" data-dark class="html">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/css/style.css" type="text/css" />
+  <link href="/css/hamburguer.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/effects.css">
+  <title>Hello welcome to my virtual space</title>
+</head>
+<body>
+  <nav class="menu_nav" data-dark data-light>
+    <div class="menu_column1"></div>
+    <div class="menu_column2">
+      <ul class="menu">
+        <li class="menu_item"><a href="#about" data-scroll-spy>About me</a></li>
+        <li class="menu_item"><a href="#skills" data-scroll-spy>Technologies</a></li>
+        <li class="menu_item"><a href="#portfolio" data-scroll-spy>Portfolio</a></li>
+      </ul>
+      <ul class="menu_responsive">
+        <li class="menu_item"><a href="#about" data-scroll-spy>About me</a></li>
+        <li class="menu_item"><a href="#skills" data-scroll-spy>Technologies</a></li>
+        <li class="menu_item"><a href="#portfolio" data-scroll-spy>Portfolio</a></li>
+      </ul>
+    </div>
+
+    <div class="menu_column3">
+      <ul class="menu_2">
+        <li class="menu_item last-item"><img class="usa" src="/img/united-states.png" alt="USA_flag"></li>
+        <li class="menu_item last-item"><img class="mx" src="/img/mexico.png" alt="Mx_flag"></li>
+        <li class="menu_item last-item">
+          <input type="checkbox" class="checkbox" id="checkbox">
+          <label for="checkbox" class="checkbox-label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <span class="ball" data-on data-off></span>
+          </label>
+        </li>
+      </ul>
+      <button class="hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="header_content">
+      <div class="header_content--column1">
+        <h1>Mario E. Castillo</h1>
+        <div class="text-anim">
+          <span>W</span>
+          <span>E</span>
+          <span>B</span>
+          <span>&nbsp;</span>
+          <span>D</span>
+          <span>E</span>
+          <span>V</span>
+          <span>E</span>
+          <span>L</span>
+          <span>O</span>
+          <span>P</span>
+          <span>E</span>
+          <span>R</span>
+        </div>
+        <div class="btn_wrap">
+          <a class="btn" href="contact">Contact</a>
+        </div>
+      </div>
+      <!-- <div class="header_content--column2">
+        <img src="/img/header.jpg" alt="" />
+      </div> -->
+    </div>
+  </header>
+    <button class="btn-scroll hidden">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  <div class="scroll-down"><a href="#about"><i class="fa-solid fa-computer-mouse"></i></a></div>
+
+    <main>
+      <section class="about_section" id="about" data-scroll-spy>
+        <div class="about_column1">
+          <img src="/img/about.jpg" alt="Mario" />
+        </div>
+        <div class="about_column2">
+          <h2>¡Hello! I'm...</h2>
+          <ul>
+            <li>Mario Enrique Castillo Fernández</li>
+            <li>I was born in Mexico on September 2, 1993.</li>
+            <li>I live in Mexico city, Cuauhtémoc.</li>
+            <li><a href="/assets/Mario Enrique Castillo Fernández CV.pdf" download="Mario E. Castillo CV.pdf" class="cv_link">Resume</a></li>
+          </ul>
+          <p>
+            I am a web programmer since 2019 when I started my first projects.
+          </p>
+          <h3>Social media</h3>
+          <ul class="social_media">
+            <li><a href="https://www.facebook.com/profile.php?id=100010079790571" rel="noreferrer noopener"
+                target="_blank"><img src="/img/facebook.png" alt="facebook"></a></li>
+            <li><a href="https://github.com/MarioEmx" rel="noreferrer noopener" target="_blank"><img src="/img/github.png" alt="github"></a></li>
+            <li><a href="https://linkedin.com/in/mario-e-castillo-mx" rel="noreferrer noopener" target="_blank"><img
+                  src="/img/linkedin.png" alt="linkedin"></a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="skills_section" id="skills" data-scroll-spy>
+        <h2>Technologies</h2>
+        <div class="skills_row">
+          <div class="skills_column1">
+            <ul class="desktop_skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>PHP</li>
+              <li>jQuery</li>
+              <li>Bootstrap</li>
+              <li>JSON</li>
+              <li>AJAX</li>
+              <li>WordPress</li>
+              <li>FlutterFlow</li>
+            </ul>
+            <div class="responsive_skills">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>PHP</li>
+              <li>jQuery</li>
+            </ul>
+            <ul>
+              <li>Bootstrap</li>
+              <li>JSON</li>
+              <li>AJAX</li>
+              <li>Wordpress</li>
+              <li>FlutterFlow</li>
+            </ul>
+          </div>
+          </div>
+          <div class="skills_column2">
+            <div class="carousel_wrap">
+              <div class="carousel">
+                <figure class="item"><img src="/img/html.png" alt="html"></figure>
+                <figure class="item"><img src="/img/css.png" alt="css"></figure>
+                <figure class="item"><img src="/img/ajax.png" alt="ajax"></figure>
+                <figure class="item"><img src="/img/bootstrap.png" alt="bootstrap"></figure>
+                <figure class="item"><img src="/img/jQurery.png" alt="jquery"></figure>
+                <figure class="item"><img src="/img/js.png" alt="javascript"></figure>
+                <figure class="item"><img src="/img/wordpress.png" alt="wordpress"></figure>
+                <figure class="item"><img src="/img/php.png" alt="php"></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio_section" id="portfolio" data-scroll-spy>
+        <h2>Portfolio</h2>
+        <div class="portfolio_row">
+          <div class="portfolio_column1">
+            <img src="/img/flow mockup.png" alt="Flow project">
+          </div>
+          <div class="portfolio_column2">
+            <div class="portfolio_text">
+            <h3>Flow Work&Living</h3>
+            <p>Design, development and basic SEO for website with online course sales system.</p>
+            <a href="https://flowworkandliving.com/" rel="noreferrer noopener" target="_blank">Visit</a>
+          </div>
+          </div>
+        </div>
+        <div class="portfolio_row">
+          <div class="portfolio_column2">
+            <div class="portfolio_text">
+            <h3>Marca Urbana</h3>
+            <p>Design, development and basic SEO for urban developer's website in Mexico City</p>
+            <a href="https://marcaurbana.com/" rel="noreferrer noopener" target="_blank">Visit</a>
+          </div>
+          </div>
+          <div class="portfolio_column1">
+            <img src="/img/marca-mockup.png" alt="Marca project">
+          </div>
+        </div>
+        <div class="portfolio_row">
+          <div class="portfolio_column1">
+            <img src="/img/laboratorios-mockup.png" alt="Chontalpa project">
+          </div>
+          <div class="portfolio_column2">
+            <div class="portfolio_text">
+            <h3>Laboratorios Chontalpa</h3>
+            <p>Design and development of a web site for a clinical analysis laboratory, search system for studies and results.</p>
+              <a href="https://www.laboratorioschontalpa.com.mx/" rel="noreferrer noopener" target="_blank">Visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio_row">
+          <div class="portfolio_column2">
+            <div class="portfolio_text">
+            <h3>Reytor Developments</h3>
+            <p>Website design and development for a land developer in Texas.</p>
+            <a href="https://www.reytordevelopments.com" rel="noreferrer noopener" target="_blank">Visit</a>
+          </div>
+          </div>
+          <div class="portfolio_column1">
+            <img src="/img/REYTOR-mockup.png" alt="Reytor project">
+          </div>
+        </div>
+        <div class="portfolio_row">
+          <div class="portfolio_column1">
+            <img src="/img/flow mockup.png" alt="IHMéxico project">
+          </div>
+          <div class="portfolio_column2">
+            <div class="portfolio_text">
+            <h3>IH México</h3>
+            <p>Redesign of some sections for "International House" English school website.</p>
+            <a href="https://ihmexico.com/" rel="noreferrer noopener" target="_blank">Visitar</a>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="/js/index.js" type="module"></script>
+</body>
+</html>
