@@ -38,7 +38,7 @@ export default function change_lan(usa,mx) {
     if (e.target.matches(usa)) {
       e.preventDefault();
       getAll({
-        url: "en/index-en.html",
+        url: "index-en.html",
         success: (html) => ($main.innerHTML = html),
         error: (err) => ($main.innerHTML = `<h1>${err}</h1>`),
       });
