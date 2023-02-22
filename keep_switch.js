@@ -10,14 +10,12 @@ export default function keep_switch(btn_mode, off, on, ball) {
     $selectors.forEach((el) => el.classList.remove(off));
     $selectors2.forEach((el) => el.classList.add(on));
     ls.setItem("toggle", "on");
-    console.log("on")
   };
 
   const offMode = () => {
     $selectors.forEach((el) => el.classList.add(off));
     $selectors2.forEach((el) => el.classList.remove(on));
     ls.setItem("toggle", "off");
-    console.log("off")
   };
 
   d.addEventListener("click", (e) => {
