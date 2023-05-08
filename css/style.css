@@ -561,6 +561,8 @@ p {
 .portfolio_row a {
   display: block;
   text-align: center;
+  width: 80px;
+  margin: auto;
 }
 
 .portfolio_row:first-of-type {
