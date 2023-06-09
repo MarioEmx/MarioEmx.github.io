@@ -449,7 +449,7 @@ p {
 /*Skills start*/
 .skills_section {
   height: 90vh;
-  padding: 4rem 2rem 0 2rem;
+  padding: 0.5rem 2rem 2rem 2rem;
   background-image: url(../img/portfolio_banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -468,7 +468,6 @@ p {
 
 .skills_column1 {
   width: 40%;
-  margin-top: 5%;
 }
 
 .responsive_skills {
