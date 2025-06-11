@@ -581,6 +581,7 @@ p {
 .portfolio_column1 img {
   margin-bottom: -8rem;
   min-width: 400px;
+  max-width: 600px;
 }
 
 .portfolio_text {
