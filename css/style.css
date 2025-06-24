@@ -448,8 +448,8 @@ p {
 
 /*Skills start*/
 .skills_section {
-  height: 90vh;
-  padding: 0.5rem 2rem 2rem 2rem;
+  height: 65vh;
+  padding: 5rem 1rem;
   background-image: url(../img/portfolio_banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
